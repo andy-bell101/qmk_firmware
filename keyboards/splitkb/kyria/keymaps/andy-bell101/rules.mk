@@ -6,3 +6,4 @@ RGBLIGHT_ENABLE = yes      # Enable keyboard RGB underglow
 CONVERT_TO = promicro_rp2040
 TAP_DANCE_ENABLE = yes
 CAPS_WORD_ENABLE = yes
+LTO_ENABLE = no            # Workaround for https://github.com/qmk/qmk_firmware/issues/24725
